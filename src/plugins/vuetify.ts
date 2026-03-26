@@ -8,18 +8,18 @@ export default createVuetify({
   components,
   directives,
   theme: {
-    defaultTheme: 'sarkor',
+    defaultTheme: 'light',
     themes: {
-      sarkor: {
+      light: {
         dark: false,
         colors: {
-            primary: '#0B2B5C',
-            secondary: '#00AEEF',
-            success: '#2E7D32',
-            warning: '#F57C00',
-            error: '#C62828',
-            background: '#F5F7FA',
-            surface: '#FFFFFF',
+          primary: '#0B2B5C',
+          secondary: '#00AEEF',
+          success: '#2E7D32',
+          warning: '#F57C00',
+          error: '#C62828',
+          background: '#F5F7FA',
+          surface: '#FFFFFF',
         }
       }
     }
